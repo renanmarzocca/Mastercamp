@@ -45,7 +45,7 @@
 }
 
 .banner-btn{
-    margin: 70px auto 0;
+    margin: 40px auto 0;
 }
 
 .banner-btn a{
@@ -131,7 +131,7 @@ nav ul li a{
     border: 2px solid #000;
     position: absolute;
     left: 49%;
-    bottom: 10px;
+    bottom: 2px;
     border-radius: 50px;
     cursor: pointer;
 }
@@ -183,7 +183,7 @@ nav ul li a{
 
 @media screen and (max-width: 770px){
     .banner-text{
-        padding-top: 350px; 
+        padding-top: 300px; 
     }
 
     .banner-text h2{
@@ -203,6 +203,10 @@ nav ul li a{
         top: 0%;
     }
 
+    .banner-btn{
+        margin: 40px auto 0;
+    }
+
     .banner-btn a{
         display: block;
         margin: 20px auto;
@@ -210,6 +214,7 @@ nav ul li a{
 
     .scroll-down{
         left: 46%;
+        bottom: 2px;
     }
 
 }
